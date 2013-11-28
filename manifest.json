@@ -1,0 +1,11 @@
+{
+  "name": "cacheStackoverflow",
+  "version": "1.0",
+  "description": "I will replace some request urls of stackoverflow!",
+  "permissions": ["webRequest", "webRequestBlocking","http://*/"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources": [ "all.css","stub.en.js","sprites.png","sprite-herobox.png", "mini-hero-bg.png" ,"Img/*","img/*","full-anon.en.js"],
+  "manifest_version": 2
+}
